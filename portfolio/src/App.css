@@ -1,0 +1,67 @@
+/* APP ROOT */
+.app {
+  min-height: 100vh;
+  background: #020617;
+  color: white;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* CONTENT */
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+/* BACKGROUND EFFECTS */
+.bg-effects {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* COMMON CIRCLE */
+.bg-circle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.3;
+  animation: pulse 6s infinite ease-in-out;
+}
+
+/* COLORS */
+.purple {
+  background: #a855f7;
+  top: 0;
+  left: 20%;
+}
+
+.pink {
+  background: #ec4899;
+  bottom: 20%;
+  right: 20%;
+  animation-delay: 1s;
+}
+
+.blue {
+  background: #3b82f6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: 2s;
+}
+
+/* ANIMATION */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.2;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.4;
+  }
+}

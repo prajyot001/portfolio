@@ -1,0 +1,117 @@
+.projects-section {
+  padding: 100px 20px;
+}
+
+.projects-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* TITLE */
+.gradient-text {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 50px;
+}
+
+/* CARD */
+.project-card {
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid #334155;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  border-color: #a855f7;
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.3);
+}
+
+/* IMAGE */
+.project-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.project-content {
+  padding: 20px;
+}
+
+/* HEADER */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-header h3 {
+  font-size: 1.5rem;
+}
+
+/* BOXES */
+.project-boxes {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.box {
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.problem {
+  background: rgba(127, 29, 29, 0.3);
+  border: 1px solid red;
+}
+
+.solution {
+  background: rgba(20, 83, 45, 0.3);
+  border: 1px solid green;
+}
+
+/* TECH */
+.tech {
+  margin-top: 15px;
+}
+
+.tech span {
+  background: rgba(168, 85, 247, 0.2);
+  border: 1px solid #a855f7;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* FEATURES */
+.features {
+  margin-top: 15px;
+  color: #cbd5f5;
+}
+
+.features li {
+  margin-bottom: 5px;
+}
+
+/* FUTURE */
+.future {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(88, 28, 135, 0.2);
+  border: 1px solid #a855f7;
+  border-radius: 10px;
+}
+
+.future h4 {
+  margin-bottom: 10px;
+}
